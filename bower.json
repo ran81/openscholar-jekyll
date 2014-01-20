@@ -1,6 +1,7 @@
 {
   "name": "openscholar-jekyll",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "dependencies": {
+    "bootstrap-sass": "~3.0.2"
   }
 }
