@@ -334,7 +334,7 @@ form, fieldset{
   text-align:center;
   margin:0 0 9px;
 }
-#main h2 a{
+#main h2 span{
   color:#547b8c;
   text-decoration:none;
 }
