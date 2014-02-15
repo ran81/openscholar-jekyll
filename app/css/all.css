@@ -443,14 +443,14 @@ form, fieldset{
   margin: 0 2% 7%;
   text-align:center;
 }
-.inside-list a{
+.inside-list span{
   display:inline-block;
   vertical-align:top;
   color:#fff;
   text-decoration:none;
   position:relative;
 }
-.inside-list a:before{
+.inside-list span:before{
   content:'';
   display:block;
   margin: 0 auto 10px;
