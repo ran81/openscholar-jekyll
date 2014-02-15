@@ -1,0 +1,6 @@
+.section-inside{
+	background:url(../images/bg-inside.jpg) repeat fixed 50% 0;
+}
+.btn-start{
+	background:url(../images/sprite.png) no-repeat 0 -390px;
+}
