@@ -1,11 +1,11 @@
-// Generated on 2014-01-20 using generator-jekyllrb 1.2.1
+// Generated on 2014-02-15 using generator-jekyllrb 1.2.1
 'use strict';
 
 // Directory reference:
 //   css: css
 //   compass: _scss
 //   javascript: js
-//   images: img
+//   images: images
 //   fonts: fonts
 
 module.exports = function (grunt) {
@@ -111,7 +111,6 @@ module.exports = function (grunt) {
         cssDir: '.tmp/css',
         imagesDir: '<%= yeoman.app %>/images',
         javascriptsDir: '<%= yeoman.app %>/js',
-        importPath: '<%= yeoman.app %>/_bower_components',
         relativeAssets: false,
         httpImagesPath: '/images',
         httpGeneratedImagesPath: '/images/generated',

@@ -6,11 +6,11 @@
 name: openscholar-jekyll
 description: 
 author:
-  name: Amitaibu
+  name: Amitai Burstein
   email: amitai@gizra.com
 
 # Grunt handles images and assets.
-exclude: ['img', 'css', 'js', 'fonts',
+exclude: ['images', 'css', 'js', 'fonts',
           '**.png', '**.jpg', '**.jpeg', '**.gif', '**.webp', '**.svg', '**.ico']
 
 include: ['.htaccess']
