@@ -178,16 +178,7 @@ form, fieldset{
   background:none;
   margin:0;
 }
-#header.header-fixed .logo-holder:after{
-  position:absolute;
-  content:'';
-  left:50%;
-  background:url(/images/sprite.png) no-repeat 0 -506px;
-  width: 27px;
-  height: 19px;
-  bottom:-22px;
-  margin:0 0 0 -16px;
-}
+
 #header.header-fixed .navbar-collapse {
   padding:0;
   text-align:left;
