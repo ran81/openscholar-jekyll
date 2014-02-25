@@ -226,6 +226,7 @@ form, fieldset{
 .switcher li{
   display:inline-block;
   vertical-align:top;
+  padding-right: 10px;
 }
 .switcher li a{
   display:block;
