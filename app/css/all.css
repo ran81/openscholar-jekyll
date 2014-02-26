@@ -47,7 +47,7 @@ form, fieldset{
 }
 #header .logo-holder{
   position:relative;
-  padding:18px 28px 10px;
+  padding:18px 28px 18px;
 }
 #header .logo-holder:before,
 #header .logo-holder:after{
@@ -68,7 +68,7 @@ form, fieldset{
   margin:0 auto;
   background:url(/images/logo.png) no-repeat;
   width:416px;
-  height:50px;
+  height:38px;
   text-indent:-9999px;
   overflow:hidden;
 }
@@ -177,6 +177,10 @@ form, fieldset{
 #header.header-fixed .logo-box:after{
   background:none;
   margin:0;
+}
+
+#header.header-fixed .logo-holder:after{
+  display: none;
 }
 
 #header.header-fixed .navbar-collapse {
@@ -513,8 +517,9 @@ form, fieldset{
   #header.header-fixed .logo{
     width:180px;
     height:29px;
-    background-size:180px 28px;
+    background-size:180px 18px;
   }
+
   #header.header-fixed .logo-holder{padding:5px 0 0;}
   #header.header-fixed .logo-holder:after{bottom:-25px;}
   .cycle-gallery .mask .slideset{height:648px;}
@@ -540,11 +545,15 @@ form, fieldset{
   }
 }
 @media only screen and (max-width: 767px){
+  #header .logo-holder{
+    padding:18px 28px 10px;
+  }
+
   #header{padding-top:8px;}
   #header .logo{
     width:230px;
     height:37px;
-    background-size:230px 37px;
+    background-size:230px 23px;
   }
   .navbar{position:relative;}
   .navbar-collapse{
