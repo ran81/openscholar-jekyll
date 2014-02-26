@@ -37,7 +37,7 @@ function initParallax(){
 		});
 		checkVisibility();
 	}
-	
+
 	function checkVisibility() {
 		setions.each(function() {
 			var section = jQuery(this);
@@ -66,12 +66,12 @@ function initFixedHeader(){
 	header.removeClass(activeClass);
 	var flag = false;
 	var timer;
-	
-	
+
+
 	var isTouchDevice = ('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch;
 	var isWinPhoneDevice = navigator.msPointerEnabled && /MSIE 10.*Touch/.test(navigator.userAgent);
 	var event = isTouchDevice ? (isWinPhoneDevice ? 'MSPointerDown' : 'click') : 'click';
-	
+
 	function initScroll(){
 		if(win.scrollTop() > main.offset().top - fixedHeight - 1 && !header.hasClass(activeClass)){
 			header.addClass(activeClass).css({top: -header.outerHeight()});
@@ -84,16 +84,16 @@ function initFixedHeader(){
 			});
 		}
 	}
-	
+
 	jQuery('#nav').each(function(){
 		var items = jQuery(this).find('a');
 		items.each(function(){
 			var item = jQuery(this)
 			var attribute = item.attr('href');
-			
+
 			item.bind('click', function(e){
 				e.preventDefault();
-				
+
 				if(!item.hasClass(activeClassLink)){
 					items.removeClass(activeClassLink);
 					item.addClass(activeClassLink)
@@ -121,11 +121,10 @@ function initFixedHeader(){
 			initScroll();
 		}, 100)
 	});
-	
+
 	var btns = jQuery('.btn-scroll');
 	btns.each(function(){
 		var btn = jQuery(this);
-		console.log(btn)
 		var attrBtn = btn.attr('href');
 		btn.bind('click', function(e){
 			e.preventDefault();
