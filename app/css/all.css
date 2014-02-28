@@ -470,7 +470,7 @@ form, fieldset{
   background:#1b1f24;
 }
 #footer .container{
-  padding-top: 182px;
+  padding-top: 90px;
   padding-bottom: 56px;
 }
 #footer p{margin: 0 0 32px;}
@@ -485,7 +485,7 @@ form, fieldset{
   min-width:320px;
   border-radius: 40px;
   font-weight:bold;
-  margin: 0 0 134px;
+  margin: 20px 0 100px;
   text-transform:uppercase;
 }
 #footer .contact{
