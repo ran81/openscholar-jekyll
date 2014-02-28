@@ -503,6 +503,13 @@ form, fieldset{
   border:none;
   border-radius: 0;
 }
+
+#footer .contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+
 .navbar-default .navbar-collapse, .navbar-default .navbar-form{border:none;}
 @media only screen and (max-width: 1215px){
   .video-block{margin-left:13px;}
